@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Answer This First</title>
+    <link rel="stylesheet" href="question.css">
+  </head>
+  <body>
+    <div class="Question_Box">
+      <h2>💖One Question Before You Enter</h2>
+      <p>Calling Me Babe Is Diabolical I Asked You To Call Me??</p>
+      <input type="text" id="userAnswer" placeholder="Type Your Answer Here...">
+      <button onclick="checkAnswer()">Submit</button>
+      <p id="feedback"></p>
+    </div>
+
+    <script>
+      function checkAnswer() {
+        const answer = document.getElementById("userAnswer").value.toLowerCase().trim();
+        const correctAnswer = "tribal chief";
+
+        if (answer === correctAnswer) {
+          window.location.href = "index.html";
+        } else{
+          document.getElementById("feedback").textContent = "Ooops; Try Again 💭!!"
+        }
+      }
+    </script>
+  </body>

@@ -1,0 +1,40 @@
+body{
+  background: linear-gradient(to right, pink, cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input, button{
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button{
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#feedback{
+  margin-top: 10px;
+  color: red;
+}
+
+.musicBtn {
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.musicBtn :hover{
+  color: pink;
+}

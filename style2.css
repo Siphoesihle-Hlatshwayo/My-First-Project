@@ -1,0 +1,210 @@
+body{
+  background: linear-gradient(135deg, pink, cyan); /* soft romantic pink gradient */
+  font-family: 'Arial', sans-serif;
+}
+
+h1{
+  color: purple;
+  text-align: center;
+}
+
+input, button{
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+button:hover{
+  background-color: pink;
+}
+
+button{
+  background-color: white;
+  color: purple;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.photo_card {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo_card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 25%; /* Squarcle shape */
+  margin-right: 20px;
+}
+
+.photo_card .Message {
+  flex: 1;
+}
+
+.photo_card .Message h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo_card .Message p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.photo_card_2{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo_card_2 img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-right: 20px;
+}
+
+.photo_card_2 .Message_2{
+  flex: 1;
+}
+
+.photo_card_2 .Message_2 h3{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo_card_2 .Message_2 p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.photo_card_3 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo_card_3 img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-right: 20px;
+}
+
+.photo_card_3 .Message_3 {
+  flex: 1;
+}
+
+.photo_card_3 h3{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo_card_3 p{
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.photo_card_4 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo_card_4 img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-right: 20px;
+}
+
+.photo_card_4 .Message_4 {
+  flex: 1;
+}
+
+.photo_card_4 h3{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo_card_4 p{
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.photo_card_5 {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  margin: 16px auto;
+  border-radius: 20px;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.photo_card_5 img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 25%;
+  margin-right: 20px;
+}
+
+.photo_card_5 .Message_5 {
+  flex: 1;
+}
+
+.photo_card_5 h3{
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.photo_card_5 p{
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.Apology{
+  display: flex;
+  color: purple;
+  justify-content: center;
+  align-items: center;
+}
